@@ -1,0 +1,44 @@
+<html>
+    <title>Jogo da velha!</title>
+    <body>
+            <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+                var usu1 = prompt('PLAYER 1: pedra, papel ou tesoura: ');
+                var usu2 = prompt('PLAYER 2: pedra, papel ou tesoura: ')
+                if (usu1 == "papel") {
+                    if(usu2=="pedra"){
+                        alert("Player 1, win!")
+                    } 
+                    if(usu2=="tesoura"){
+                        alert('Player 2, win')
+                    }
+                    if(usu2 == usu1){
+                        alert("Empate")
+                    }
+                }
+                if (usu1 == "pedra") {
+                    if (usu2 == "tesoura"){
+                        alert("Player 1 win")
+                    }
+                    if(usu2 == "papel"){
+                        alert("Player 2, win")
+                    }
+                    if(usu2 == usu1){
+                        alert("Empate")
+                    }
+                        
+                }
+                if (usu1 == "tesoura"){
+                    if(usu2 == "papel"){
+                        alert("Player 1, win!")
+                    }
+                    if(usu2 == "pedra"){
+                        alert("PLayer 2, win")
+                    }
+                    if(usu2 == usu1){
+                        alert("Empate")
+                    }
+                }
+
+            </SCRIPT>
+    </body>
+</html>
